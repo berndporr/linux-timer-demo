@@ -4,6 +4,11 @@
 #include <signal.h>
 #include <time.h>
 
+// The code is loosely based on the demo on the timer_create() man page of the
+// Linux man-mages project. 2015-07-23.
+// (C) 2017, Bernd Porr, mail@berndporr.me.uk
+// License is GPL-3.0. See the LICENSE file.
+
 #define CLOCKID CLOCK_MONOTONIC
 #define SIG SIGRTMIN
 
